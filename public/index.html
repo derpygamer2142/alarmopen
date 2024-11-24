@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlarmOpen</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="alarmHome">
+        <div id="top">
+            <div id="topLeft">
+                <button class="infoButton" id="alarmButton"><img src="./assets/images/alarm-set.svg" class="infoIcon"></button>
+                <button class="infoButton" id="moonButton"><img src="./assets/images/moon.svg" class="infoIcon"></button>
+            </div>
+            <h1 id="topMiddle" class="noBreak"><u class="noBreak">11/23 Sat</u></h1>
+            <div id="topRight">
+                <button class="infoButton"><img src="./assets/images/connected.svg" class="infoIcon"></button>
+                <button class="infoButton" id="notificationsButtons"><img src="./assets/images/mail-read.svg" class="infoIcon"></button>
+            </div>
+        </div>
+    
+        <div id="clock">
+            <h1 id="clockTime">6:15</h1>
+            <h1 id="ampm">pm</h1>
+            
+        </div>
+    
+        <img id="characterImage" src="./assets/images/my-new-character.png">
+    
+        <div id="alarm">
+            <img src="./assets/images/alarm-set.svg" id="alarmIcon">
+            <h1 id="alarmTime">7:00 am</h1>
+        </div>
+    </div>
+
+    <div id="pagesMenu" hidden>
+        <div id="pagesTop">
+            <button id="pageLeftButton">
+                <img src="./assets/images/arrow-left.svg">
+            </button>
+            <div id="pagesOption">
+                <img src="./assets/images/my-new-character.png" id="pagesOptionImg">
+                <h1 class="noBreak">Set alarm</h1>
+            </div>
+            <button id="pageRightButton">
+                <img src="./assets/images/arrow-right.svg">
+            </button>
+        </div>
+
+
+        <div id="pagesBottom">
+            <button id="pagesBack">
+                <img src="./assets/images/back.svg">
+                <h2>Back</h2>
+            </button>
+            <button id="pagesConfirm">
+                <img src="./assets/images/confirm.svg">
+                <h2>Confirm</h2>
+            </button>
+        </div>
+    </div>
+
+    <script src="./script.js" type="module" defer></script>
+</body>
+</html>
